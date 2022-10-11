@@ -23,6 +23,8 @@ X Error of failed request:  BadRequest (invalid request code or no such operatio
   Minor opcode of failed request:  1 (X_ShmAttach)  
   Serial number of failed request:  202  
   Current serial number in output stream:  203  
+  
+Works smoothly using VNC.
 
 #############
 
