@@ -1,3 +1,31 @@
+Well, thats the one! Amazing comprehensive code by avbotics!  
+
+conda create -n env3106 python==3.10.6  
+conda activate env3106  
+
+/home/pi/.conda/envs/env3106/bin/pip install numpy  
+/home/pi/.conda/envs/env3106/bin/pip install pygame   
+
+
+/home/pi/.conda/envs/env3106/bin/pip install adafruit-blinka  
+
+/home/pi/.conda/envs/env3106/bin/pip install adafruit-circuitpython-servokit    
+/home/pi/.conda/envs/env3106/bin/pip install adafruit-circuitpython-mpu6050  
+/home/pi/.conda/envs/env3106/bin/pip install adafruit-circuitpython-ads1x15  
+/home/pi/.conda/envs/env3106/bin/pip install matplotlib  
+
+bluetoothctl remove , pair, trust A4:AE:11:DE:4E:BB  
+
+Animation works on notebook, not on Pi using ssh -Y.  
+export SDL_VIDEODRIVER='dummy'  or 'x11'  
+X Error of failed request:  BadRequest (invalid request code or no such operation)  
+  Major opcode of failed request:  130 (MIT-SHM)  
+  Minor opcode of failed request:  1 (X_ShmAttach)  
+  Serial number of failed request:  202  
+  Current serial number in output stream:  203  
+
+#############
+
 # Spot-Micro-Control-and-Animation
 Inverse Kinematics based control and animation of Spotmicro developped in Python for Raspeberry Pi
 
